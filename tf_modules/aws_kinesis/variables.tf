@@ -1,13 +1,7 @@
-variable "lambda_funcs" {
-  description = "map between lambda function with its configure "
-  type        = map(
-    object(
-      {
-        src_dir       = string
-        output_path   = string
-        event_map     = bool
-        event_src_arn = string
-      }
-    )
-  )
+variable "kds_list" {
+  type = map(object({
+    shard_count      = number
+    retention_period = number
+    stream_mode      = string
+  }))
 }

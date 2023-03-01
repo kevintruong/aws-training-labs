@@ -23,7 +23,7 @@ EOF
 remote_state {
   backend = "local"
   config  = {
-    path = "/home/kevin/terraform.d/terraform.tfstate"
+    path = "/home/kevin/terraform.d/${path_relative_to_include()}/output/terraform.tfstate"
   }
 
   generate = {
