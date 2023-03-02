@@ -3,7 +3,8 @@ variable "lambda_funcs" {
   type        = map(
     object(
       {
-        src_dir       = string
+        handle_func   = string
+        source_file       = string
         output_path   = string
         event_map     = bool
         event_src_arn = string
