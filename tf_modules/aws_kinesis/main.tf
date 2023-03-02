@@ -12,3 +12,10 @@ resource "aws_kinesis_stream" "test_stream" {
     Environment = "test"
   }
 }
+
+output "kds_stream_arn" {
+  value = {
+    for k, bd in aws_kinesis_stream.test_stream : k => bd.arn
+  }
+
+}

@@ -23,7 +23,7 @@ HIERARCHY_COLUMN_NAME = 'Hierarchy'
 TTL_COLUMN_NAME = 'TimeToExist'
 # DynamoDB Table and Column Names
 STATE_TABLE_NAME = 'StateTable'
-STATE_TABLE_KEY = 'id'
+STATE_TABLE_KEY = 'TradeId'
 
 
 # --------------------------------------------------------------------------------------------------
@@ -64,22 +64,21 @@ def lambda_handler(event, context):
             UpdateExpression='SET  #VALUE     = :new_value,' + \
                              '#VERSION   = :new_version,' + \
                              '#HIERARCHY = :new_hierarchy,' + \
-                             '#TIMESTAMP = :new_time' + \
-                             '#TTL = :ttl_time',
-
+                             '#TIMESTAMP = :new_time,' + \
+                             '#TIMESTAMP_TTL = :ttl',
             ExpressionAttributeNames={
                 '#VALUE': VALUE_COLUMN_NAME,
                 '#VERSION': VERSION_COLUMN_NAME,
                 '#HIERARCHY': HIERARCHY_COLUMN_NAME,
                 '#TIMESTAMP': TIMESTAMP_COLUMN_NAME,
-                '#TTL': TTL_COLUMN_NAME
+                '#TIMESTAMP_TTL': TTL_COLUMN_NAME
             },
             ExpressionAttributeValues={
                 ':new_version': record_version,
                 ':new_value': Decimal(str(record_value)),
                 ':new_hierarchy': json.dumps(record_hierarchy, sort_keys=True),
                 ':new_time': Decimal(str(record_time)),
-                ':ttl_time': Decimal(str(record_time + 60))
+                ':ttl': Decimal(str(record_time + 60))
             }
         )
 
