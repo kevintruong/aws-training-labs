@@ -19,3 +19,9 @@ output "kds_stream_arn" {
   }
 
 }
+
+output "kds_stream" {
+  value = {
+    for k, bd in aws_kinesis_stream.test_stream : k => bd
+  }
+}

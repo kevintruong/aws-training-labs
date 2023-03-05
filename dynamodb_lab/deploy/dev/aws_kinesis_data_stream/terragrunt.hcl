@@ -14,5 +14,10 @@ inputs = {
       retention_period = 24
       stream_mode      = "PROVISIONED"
     },
+    "BackupStream" = {
+      shard_count      = 1
+      retention_period = 24
+      stream_mode      = "PROVISIONED"
+    },
   }
 }
