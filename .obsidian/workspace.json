@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dynamodb/lab/Dynamodb.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d33298a5fc966e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dynamodb/Dynamodb getting start.md",
+                "file": "dynamodb/dynamodb-part-1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "600b784b70fa4fdd",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dynamodb/Dynamodb getting start.md",
+                "file": "dynamodb/dynamodb-part-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dynamodb/Dynamodb getting start.md",
+                "file": "dynamodb/dynamodb-part-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dynamodb/Dynamodb getting start.md"
+                "file": "dynamodb/dynamodb-part-1.md"
               }
             }
           },
@@ -156,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 822.5
+    "width": 822.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,21 +153,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8d33298a5fc966e6",
+  "active": "822dd3e84be5f291",
   "lastOpenFiles": [
-    "Excalidraw/Dynamodb_table.excalidraw.md",
+    "dynamodb/lab/dev/terragrunt.hcl~",
+    "artifacts/Excalidraw/dynamodb_query_filter.svg",
+    "dynamodb/dynamodb-part-1.md",
     "dynamodb/Dynamodb getting start.md",
+    "dynamodb/lab/dev/backend.tf",
+    "dynamodb/lab/dev/provider.tf",
+    "dynamodb/lab/dev/versions.tf",
+    "dynamodb/lab/dev/terragrunt.hcl",
+    "terragrunt.hcl~",
+    "terragrunt.hcl",
+    "tf_modules/aws_kinesis/main.tf~",
+    "dynamodb/lab/dev/aws_kinesis_data_stream/terragrunt.hcl~",
+    "dynamodb/lab/artifacts/source_fake.zip",
     "dynamodb/lab/Dynamodb.md",
-    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
-    "Excalidraw/Scripts/Downloaded/Uniform size.md",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
+    "artifacts/Excalidraw/Dynamodb Query.excalidraw.md",
+    "artifacts/Excalidraw/dynamodb_query_pk.svg",
+    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.md",
+    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.svg",
+    "artifacts/Excalidraw/Dynamodb Query.excalidraw.svg",
+    "artifacts/Excalidraw/dynamodb_scan_1.svg",
+    "artifacts/Excalidraw/Dynamodb_table.excalidraw.md",
+    "artifacts/Excalidraw/Dynamodb_table.excalidraw.svg",
+    "artifacts/Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "artifacts/Excalidraw/Scripts/Downloaded/Uniform size.md",
     "Excalidraw/dynamodb_lab.excalidraw.png",
-    "artifacts/dynamodb_lab.excalidraw.md",
+    "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
     "Excalidraw/dynamodb_lab.excalidraw.svg",
     "().md"
   ]

@@ -1784,10 +1784,10 @@ Read: 100 RCU  ^7Vl4zpF9
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 914.6283774684111,
-		"scrollY": 618.039935770583,
+		"scrollX": 963.4408774684111,
+		"scrollY": 1385.515521708083,
 		"zoom": {
-			"value": 0.8
+			"value": 0.5
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

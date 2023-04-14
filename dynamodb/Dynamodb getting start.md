@@ -48,8 +48,26 @@ A sample example of the big table pattern in DynamoDB could be an e-commerce app
 - DynamoDB offers flexible data modeling options, allowing for hierarchical or flat data structures.
 - It offers features such as automatic scaling, backup and restore, time to live (TTL) for data expiration, and global tables for multi-region replication.
 
-## Different between on-demand and provisioned mode in dynamodb
+## DynamoDB Operation 
+### Reading and Writing 
+- Capacity defined by speed read (RCU) and write (WCU)
+- RCU:
+	- 4KB per second 
+- WCU
+	- 1KB per second 
+- RCU/WCU have round up block pricing model. Mean 
+	- number of RCU/WCU = ( total sizing items / block sizing of operation ) + 1
+	- For example: have total total sizing of all item need to write about 500,5 KB then what is RCU/WCU of read/write operation 
+		- number of WCU =  int( 500,5/1 ) + 1 = 501 
+		- number of RCU =  int( 500,5/ 4 ) + 1 = 126  
+- Every Read/Write operation need 1 RCU/WCU 
+- Each table have WCU , RCU brust pool (300 seconds)
 
+## Query and Scan 
+
+![[Dynamodb_query_scan.excalidraw]]
+
+## Different between on-demand and provisioned mode in dynamodb
 
 Provisioned mode and on-demand mode are two billing modes that can be used in Amazon DynamoDB.
 
@@ -63,3 +81,6 @@ Overall, provisioned mode offers predictable performance and pricing, while on-d
 
 Note: 
 Need to aware that, with on-demand mode, we pay x4 cost for WCU/RCU
+
+
+ 

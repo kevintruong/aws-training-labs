@@ -21,9 +21,13 @@ EOF
 }
 
 remote_state {
-  backend = "local"
+  backend = "s3"
   config  = {
-    path = "${path_relative_to_include()}/output/terraform.tfstate"
+    key            = "${path_relative_to_include()}/output/terraform.tfstate"
+    encrypt        = true
+    bucket         = "aws-training-vutch"
+    dynamodb_table = "tf-locks"
+    region         = "ap-southeast-1"
   }
 
   generate = {
