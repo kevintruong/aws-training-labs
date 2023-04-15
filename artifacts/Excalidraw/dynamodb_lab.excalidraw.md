@@ -11,9 +11,6 @@ tags: [excalidraw]
 Kinesis 
 Data Streams ^CsSFG0xW
 
-Lambda 
-source_fake ^KoNBQPpf
-
 DynamoDB ^DNyv8UFS
 
 Lambda 
@@ -24,7 +21,33 @@ Data Firehose ^J8RPv05d
 
 S3 Bucket ^hG7WMMxe
 
-dynamoDB Stream ^JUBdICyx
+dynamoDB 
+Stream ^JUBdICyx
+
+"TradeId": "bd16a929-ec64-4323-9d69-9b86dc68ab60", ^HhViLnU0
+
+{ ^nJaFRmQA
+
+"Hierarchy": "{\"Region\": \"APAC\", \"RiskType\": \"PV\", \"TradeDesk\": \"FXSpot\"}", ^EhKkStgm
+
+"Timestamp": 1681479980.784592, ^fd87Yln5
+
+"Value": 2893.17, ^pwiW1DI3
+
+"Version": 0 ^zShuedDS
+
+} ^9hiFp6m6
+
+trigger ^9aKgAAqo
+
+produce to 
+dynamoDB ^QuZtKfD0
+
+For audit
+/analyst ^8ohx5AN6
+
+IOT 
+Device ^SoGULQJk
 
 %%
 # Drawing
@@ -32,209 +55,12 @@ dynamoDB Stream ^JUBdICyx
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.17",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.22",
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 1533,
-			"versionNonce": 753971584,
-			"isDeleted": false,
-			"id": "w5JW681zh9SJYnyq9eHmz",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 163.99011897849033,
-			"y": -526.5810664357884,
-			"strokeColor": "#000000",
-			"backgroundColor": "#fd7e1488",
-			"width": 64.46115236495699,
-			"height": 64.39942473426015,
-			"seed": 818946757,
-			"groupIds": [
-				"OVpK8D1FFeRySXJHXtxOi",
-				"ZyJ_s2ZRx0YB_Tr2qJUGY",
-				"cQbDhLX2YyqvZK3ZHdmC1"
-			],
-			"roundness": null,
-			"boundElements": [
-				{
-					"id": "tNDbM_s_KdC_M25pVZLuX",
-					"type": "arrow"
-				}
-			],
-			"updated": 1678023907665,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "line",
-			"version": 696,
-			"versionNonce": 1164203648,
-			"isDeleted": false,
-			"id": "xLig6ewkJ1AWFJs3lRQwb",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 188.98132652893747,
-			"y": -499.8436006506895,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 19.307143399999998,
-			"height": 26.897,
-			"seed": 111772197,
-			"groupIds": [
-				"Kgxp0QZYLzd2x0tUYWzCq",
-				"ZyJ_s2ZRx0YB_Tr2qJUGY",
-				"cQbDhLX2YyqvZK3ZHdmC1"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1678023907665,
-			"link": null,
-			"locked": false,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-12.730345799999998,
-					25.466
-				],
-				[
-					-0.5178580999999962,
-					26.897
-				],
-				[
-					6.576797599999999,
-					13.180999999999997
-				],
-				[
-					0.8992804999999997,
-					0.5640000000000001
-				]
-			]
-		},
-		{
-			"type": "line",
-			"version": 696,
-			"versionNonce": 1922191744,
-			"isDeleted": false,
-			"id": "NqUrDsbG2r8vUKItIHmaQ",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 213.4680467289375,
-			"y": -483.94660065068956,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 34.863799400000005,
-			"height": 44,
-			"seed": 1289745797,
-			"groupIds": [
-				"Kgxp0QZYLzd2x0tUYWzCq",
-				"ZyJ_s2ZRx0YB_Tr2qJUGY",
-				"cQbDhLX2YyqvZK3ZHdmC1"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1678023907665,
-			"link": null,
-			"locked": false,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-14.960123300000012,
-					-32.42
-				],
-				[
-					-29.1743317,
-					-33
-				],
-				[
-					-30.178179700000005,
-					-23.001
-				],
-				[
-					-22.897294200000005,
-					-22
-				],
-				[
-					-7.866463500000002,
-					10.421999999999997
-				],
-				[
-					3.689738799999993,
-					11
-				],
-				[
-					4.685619699999997,
-					1.0000000000000002
-				],
-				[
-					3.6897387999999935,
-					0
-				]
-			]
-		},
-		{
-			"type": "text",
-			"version": 1091,
-			"versionNonce": 1939179136,
-			"isDeleted": false,
-			"id": "KoNBQPpf",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 24.906375560960157,
-			"y": -513.0365034511296,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 123.13986206054688,
-			"height": 48,
-			"seed": 514915557,
-			"groupIds": [
-				"cQbDhLX2YyqvZK3ZHdmC1"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1678023907665,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "Lambda \nsource_fake",
-			"rawText": "Lambda \nsource_fake",
-			"textAlign": "center",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "Lambda \nsource_fake"
-		},
-		{
-			"type": "rectangle",
-			"version": 1348,
-			"versionNonce": 183903872,
+			"version": 1371,
+			"versionNonce": 4257312,
 			"isDeleted": false,
 			"id": "1jdfQ9S6fMO2byV1A-msg",
 			"fillStyle": "cross-hatch",
@@ -243,8 +69,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 157.2536863584495,
-			"y": -294.36374598081545,
+			"x": 158.5052111215963,
+			"y": -319.08136005296393,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 65.08084106445297,
@@ -268,14 +94,14 @@ dynamoDB Stream ^JUBdICyx
 					"type": "arrow"
 				}
 			],
-			"updated": 1678023882961,
+			"updated": 1681480641705,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1487,
-			"versionNonce": 1451073920,
+			"version": 1510,
+			"versionNonce": 1053945376,
 			"isDeleted": false,
 			"id": "Pu2gd_3V2gLG5mLGcaiLk",
 			"fillStyle": "solid",
@@ -284,8 +110,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 215.01677264271018,
-			"y": -261.11399038414504,
+			"x": 216.26829740585697,
+			"y": -285.8316044562935,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 47.85332485429304,
@@ -300,7 +126,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -333,8 +159,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 1673,
-			"versionNonce": 315045504,
+			"version": 1696,
+			"versionNonce": 1109623776,
 			"isDeleted": false,
 			"id": "GKgi3IYWiC-XE_InDdKMM",
 			"fillStyle": "solid",
@@ -343,8 +169,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 215.07662545133383,
-			"y": -261.0580272525891,
+			"x": 216.32815021448062,
+			"y": -285.7756413247376,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 47.85332485429304,
@@ -359,7 +185,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -392,8 +218,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 1616,
-			"versionNonce": 1229812096,
+			"version": 1639,
+			"versionNonce": 112142880,
 			"isDeleted": false,
 			"id": "etahlMwtWlZVmMkLdwnKV",
 			"fillStyle": "solid",
@@ -402,8 +228,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 214.56306808836882,
-			"y": -265.3249130032101,
+			"x": 215.8145928515156,
+			"y": -290.0425270753586,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 42.51710121657517,
@@ -418,7 +244,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -451,8 +277,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 1652,
-			"versionNonce": 1369204352,
+			"version": 1675,
+			"versionNonce": 1590167520,
 			"isDeleted": false,
 			"id": "czuQBSis3LXn_4cqWwpgJ",
 			"fillStyle": "solid",
@@ -461,8 +287,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 214.77289066828075,
-			"y": -269.9985560947549,
+			"x": 216.02441543142754,
+			"y": -294.7161701669034,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 37.13227716936174,
@@ -477,7 +303,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -510,8 +336,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 1823,
-			"versionNonce": 1906524544,
+			"version": 1846,
+			"versionNonce": 1468327456,
 			"isDeleted": false,
 			"id": "CugH_UxDeQy4H0I09nCIz",
 			"fillStyle": "solid",
@@ -520,8 +346,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 193.14571873928753,
-			"y": -257.764444502459,
+			"x": 194.39724350243432,
+			"y": -282.4820585746075,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 20.516551397616812,
@@ -536,7 +362,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -561,8 +387,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 2046,
-			"versionNonce": 1582012032,
+			"version": 2069,
+			"versionNonce": 2084309984,
 			"isDeleted": false,
 			"id": "oZ3qM311XBLo7hkh9JRYp",
 			"fillStyle": "solid",
@@ -571,8 +397,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 190.7636116332236,
-			"y": -252.71498099549365,
+			"x": 192.0151363963704,
+			"y": -277.4325950676421,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 13.22831827920135,
@@ -587,7 +413,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -612,8 +438,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "ellipse",
-			"version": 501,
-			"versionNonce": 784273792,
+			"version": 524,
+			"versionNonce": 2118328864,
 			"isDeleted": false,
 			"id": "MFzoksAWioulTVy3Nxdeq",
 			"fillStyle": "solid",
@@ -622,8 +448,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 193.25544169811178,
-			"y": -256.9045865117097,
+			"x": 194.50696646125857,
+			"y": -281.62220058385816,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 18.58190265043343,
@@ -638,14 +464,14 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 484,
-			"versionNonce": 1838466688,
+			"version": 507,
+			"versionNonce": 1418694624,
 			"isDeleted": false,
 			"id": "w7Wm75Y8IAWsWU8JJ9bvT",
 			"fillStyle": "solid",
@@ -654,8 +480,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 199.81376028061436,
-			"y": -246.70275760558945,
+			"x": 201.06528504376115,
+			"y": -271.42037167773793,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 4.372212388337282,
@@ -668,14 +494,14 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 493,
-			"versionNonce": 2011226496,
+			"version": 516,
+			"versionNonce": 702144032,
 			"isDeleted": false,
 			"id": "AkFxjRavNcEgIG1xW9TpQ",
 			"fillStyle": "solid",
@@ -684,8 +510,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 204.55032370131482,
-			"y": -253.80760273663793,
+			"x": 205.8018484644616,
+			"y": -278.5252168087864,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 4.372212388337282,
@@ -698,14 +524,14 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 541,
-			"versionNonce": 473429632,
+			"version": 564,
+			"versionNonce": 1607635936,
 			"isDeleted": false,
 			"id": "qoy1RRaiNehWizJ84HRdO",
 			"fillStyle": "solid",
@@ -714,8 +540,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 198.3563561511694,
-			"y": -253.07890067191477,
+			"x": 199.60788091431618,
+			"y": -277.79651474406324,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 3.27915929125296,
@@ -728,7 +554,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -749,8 +575,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 541,
-			"versionNonce": 1548267904,
+			"version": 564,
+			"versionNonce": 725162528,
 			"isDeleted": false,
 			"id": "yuMRAjZmqu7ROwzYKCh_H",
 			"fillStyle": "solid",
@@ -759,8 +585,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 194.53067031137425,
-			"y": -249.4353903483003,
+			"x": 195.78219507452104,
+			"y": -274.1530044204488,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 3.27915929125296,
@@ -773,7 +599,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -794,8 +620,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 552,
-			"versionNonce": 1861559936,
+			"version": 575,
+			"versionNonce": 336926688,
 			"isDeleted": false,
 			"id": "GFBZuVWbhN4c8b2YXMOWp",
 			"fillStyle": "solid",
@@ -804,8 +630,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 207.82948299256975,
-			"y": -246.702757605589,
+			"x": 209.08100775571654,
+			"y": -271.4203716777375,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 3.27915929125296,
@@ -818,7 +644,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -839,8 +665,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 586,
-			"versionNonce": 53903744,
+			"version": 609,
+			"versionNonce": 894490144,
 			"isDeleted": false,
 			"id": "7ZHx1Jn2lcivlwdFKHHsU",
 			"fillStyle": "solid",
@@ -849,8 +675,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 199.99593579679436,
-			"y": -249.4353903483003,
+			"x": 201.24746055994115,
+			"y": -274.1530044204488,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 1.8217551618072205,
@@ -863,7 +689,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -884,8 +710,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 588,
-			"versionNonce": 1384928896,
+			"version": 611,
+			"versionNonce": 627514336,
 			"isDeleted": false,
 			"id": "hKm8ZcwP7HrpMMsqvlIop",
 			"fillStyle": "solid",
@@ -894,8 +720,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 195.07719685991856,
-			"y": -243.4235983143368,
+			"x": 196.32872162306535,
+			"y": -268.1412123864853,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 1.8217551618072205,
@@ -908,7 +734,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -929,8 +755,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 602,
-			"versionNonce": 736776576,
+			"version": 625,
+			"versionNonce": 487658016,
 			"isDeleted": false,
 			"id": "scrQ-v55Zwt7n32eUH-V9",
 			"fillStyle": "solid",
@@ -939,8 +765,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 208.37600954110962,
-			"y": -243.24142279815544,
+			"x": 209.62753430425641,
+			"y": -267.9590368703039,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 1.8217551618072205,
@@ -953,7 +779,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -974,8 +800,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 589,
-			"versionNonce": 465405568,
+			"version": 612,
+			"versionNonce": 1171824608,
 			"isDeleted": false,
 			"id": "d9yKBlQg341bV4zu3t7pY",
 			"fillStyle": "solid",
@@ -984,8 +810,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 193.98414376283154,
-			"y": -246.70275760558945,
+			"x": 195.23566852597833,
+			"y": -271.42037167773793,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 1.8217551618072205,
@@ -998,7 +824,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1019,8 +845,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "text",
-			"version": 1488,
-			"versionNonce": 765731200,
+			"version": 1511,
+			"versionNonce": 426364448,
 			"isDeleted": false,
 			"id": "CsSFG0xW",
 			"fillStyle": "hachure",
@@ -1029,19 +855,19 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 117.79410689067595,
-			"y": -225.35819686786056,
+			"x": 119.04563165382274,
+			"y": -250.07581094000903,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 143.43983459472656,
-			"height": 48,
+			"height": 50,
 			"seed": 1486021803,
 			"groupIds": [
 				"91UocaYq_gbAxPL6bKCjU"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023869702,
+			"updated": 1681480641706,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1051,7 +877,8 @@ dynamoDB Stream ^JUBdICyx
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Kinesis \nData Streams"
+			"originalText": "Kinesis \nData Streams",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -1235,7 +1062,7 @@ dynamoDB Stream ^JUBdICyx
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 177.19984436035156,
-			"height": 48,
+			"height": 50,
 			"seed": 527109349,
 			"groupIds": [
 				"bXfXaTVR0PiQ-jTdFTrkh"
@@ -1252,7 +1079,8 @@ dynamoDB Stream ^JUBdICyx
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Lambda \nIngest_dynamoDB"
+			"originalText": "Lambda \nIngest_dynamoDB",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -2172,7 +2000,7 @@ dynamoDB Stream ^JUBdICyx
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 101.5399169921875,
-			"height": 24,
+			"height": 25,
 			"seed": 1338570923,
 			"groupIds": [
 				"fq_5YJfesqYr1ABzpXqgr"
@@ -2189,12 +2017,13 @@ dynamoDB Stream ^JUBdICyx
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "DynamoDB"
+			"originalText": "DynamoDB",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 377,
-			"versionNonce": 583647616,
+			"version": 426,
+			"versionNonce": 363120160,
 			"isDeleted": false,
 			"id": "XS3uC8UpgJjO2ylKkyXLn",
 			"fillStyle": "hachure",
@@ -2203,19 +2032,24 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 189.03575094802417,
-			"y": -222.1360817322869,
+			"x": 190.14772156955445,
+			"y": -246.85369580443532,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.3904352931208166,
-			"height": 191.41082934840392,
+			"width": 1.3240384290288318,
+			"height": 216.12844342055237,
 			"seed": 1747013227,
 			"groupIds": [],
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1678023891182,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "9aKgAAqo"
+				}
+			],
+			"updated": 1681480645675,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2237,15 +2071,50 @@ dynamoDB Stream ^JUBdICyx
 					0
 				],
 				[
-					-0.3904352931208166,
-					191.41082934840392
+					-1.3240384290288318,
+					216.12844342055237
 				]
 			]
 		},
 		{
+			"type": "text",
+			"version": 10,
+			"versionNonce": 430259168,
+			"isDeleted": false,
+			"id": "9aKgAAqo",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 157.5557401968369,
+			"y": -151.28947409415912,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 63.85992431640625,
+			"height": 25,
+			"seed": 1918511072,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480650222,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "trigger",
+			"rawText": "trigger",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "XS3uC8UpgJjO2ylKkyXLn",
+			"originalText": "trigger",
+			"lineHeight": 1.25
+		},
+		{
 			"type": "arrow",
-			"version": 354,
-			"versionNonce": 1997902208,
+			"version": 355,
+			"versionNonce": 969689056,
 			"isDeleted": false,
 			"id": "vsrcJrkSKz73CdsFRO0_c",
 			"fillStyle": "hachure",
@@ -2265,8 +2134,13 @@ dynamoDB Stream ^JUBdICyx
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": [],
-			"updated": 1678023891183,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "QuZtKfD0"
+				}
+			],
+			"updated": 1681480652558,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2294,9 +2168,44 @@ dynamoDB Stream ^JUBdICyx
 			]
 		},
 		{
+			"type": "text",
+			"version": 43,
+			"versionNonce": 1764579104,
+			"isDeleted": false,
+			"id": "QuZtKfD0",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 308.29846340480225,
+			"y": -5.770374149655883,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 115.63986206054688,
+			"height": 50,
+			"seed": 1040640544,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681522887059,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "produce to \ndynamoDB",
+			"rawText": "produce to \ndynamoDB",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "vsrcJrkSKz73CdsFRO0_c",
+			"originalText": "produce to \ndynamoDB",
+			"lineHeight": 1.25
+		},
+		{
 			"type": "rectangle",
-			"version": 1398,
-			"versionNonce": 704582016,
+			"version": 1650,
+			"versionNonce": 769107936,
 			"isDeleted": false,
 			"id": "tODcnDg3nw5lyk-L8Oc85",
 			"fillStyle": "cross-hatch",
@@ -2305,8 +2214,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 844.4967583484062,
-			"y": -13.515482077220042,
+			"x": 877.3889296767903,
+			"y": -7.174599810890015,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 65.16779758619214,
@@ -2330,14 +2239,14 @@ dynamoDB Stream ^JUBdICyx
 					"type": "arrow"
 				}
 			],
-			"updated": 1678023903764,
+			"updated": 1681480968508,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1833,
-			"versionNonce": 126398848,
+			"version": 2085,
+			"versionNonce": 1241267744,
 			"isDeleted": false,
 			"id": "PvMoJ0ja7t8GzXhJLrkin",
 			"fillStyle": "solid",
@@ -2346,8 +2255,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 870.7753570081176,
-			"y": 24.81846441910278,
+			"x": 903.6675283365017,
+			"y": 31.15934668543281,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 14.775505990678832,
@@ -2362,7 +2271,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968508,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2391,8 +2300,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 1798,
-			"versionNonce": 397747840,
+			"version": 2050,
+			"versionNonce": 294007776,
 			"isDeleted": false,
 			"id": "SLDQ2VyHt0OGoDjcuw58f",
 			"fillStyle": "solid",
@@ -2401,8 +2310,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 871.3863110163408,
-			"y": 13.14147716319161,
+			"x": 904.2784823447249,
+			"y": 19.482359429521637,
 			"strokeColor": "#000000",
 			"backgroundColor": "#7950f288",
 			"width": 15.72588626202601,
@@ -2417,7 +2326,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968508,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2446,8 +2355,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 532,
-			"versionNonce": 1182171520,
+			"version": 784,
+			"versionNonce": 1477409312,
 			"isDeleted": false,
 			"id": "_LHBnzfipwR9F7rL2Z2QA",
 			"fillStyle": "solid",
@@ -2456,8 +2365,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 857.3186067691198,
-			"y": 12.938558849617891,
+			"x": 890.210778097504,
+			"y": 19.279441115947918,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 13.377387944382006,
@@ -2472,7 +2381,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2497,8 +2406,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 512,
-			"versionNonce": 1665947264,
+			"version": 764,
+			"versionNonce": 240433120,
 			"isDeleted": false,
 			"id": "jSZK84NjWXKwMFemElTZY",
 			"fillStyle": "solid",
@@ -2507,8 +2416,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 856.7105436807382,
-			"y": 16.890968924094466,
+			"x": 889.6027150091223,
+			"y": 23.231851190424493,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 14.593514121143977,
@@ -2523,7 +2432,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2548,8 +2457,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 586,
-			"versionNonce": 120213888,
+			"version": 838,
+			"versionNonce": 945501728,
 			"isDeleted": false,
 			"id": "YcGk8QWIgJh8ftZlFxzXq",
 			"fillStyle": "solid",
@@ -2558,8 +2467,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 3.141592653589793,
-			"x": 871.0000262576922,
-			"y": 19.110399196684682,
+			"x": 903.8921975860763,
+			"y": 25.45128146301471,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 14.593514121143977,
@@ -2574,7 +2483,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2599,8 +2508,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 616,
-			"versionNonce": 343770752,
+			"version": 868,
+			"versionNonce": 1991424992,
 			"isDeleted": false,
 			"id": "LfU_0IigLdA7rmtaMfYN4",
 			"fillStyle": "solid",
@@ -2609,8 +2518,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 3.141592653589793,
-			"x": 870.695994713502,
-			"y": 21.685205157954385,
+			"x": 903.5881660418862,
+			"y": 28.026087424284412,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 13.377387944382006,
@@ -2625,7 +2534,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2650,8 +2559,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "rectangle",
-			"version": 499,
-			"versionNonce": 551821696,
+			"version": 751,
+			"versionNonce": 265253408,
 			"isDeleted": false,
 			"id": "shNpBaNJ6vUNqeOVUQm8I",
 			"fillStyle": "solid",
@@ -2660,8 +2569,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 871.608089346074,
-			"y": 11.114369584474787,
+			"x": 904.5002606744582,
+			"y": 17.455251850804814,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 4.864504707047992,
@@ -2674,14 +2583,14 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 586,
-			"versionNonce": 1745401472,
+			"version": 838,
+			"versionNonce": 749748192,
 			"isDeleted": false,
 			"id": "UvDuVMVJ_w7Zn7MXzaBl_",
 			"fillStyle": "solid",
@@ -2690,8 +2599,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 877.3846886856926,
-			"y": 24.491757528856795,
+			"x": 910.2768600140768,
+			"y": 30.83263979518682,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 9.729009414095984,
@@ -2704,7 +2613,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2733,8 +2642,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 515,
-			"versionNonce": 48492928,
+			"version": 767,
+			"versionNonce": 1700539936,
 			"isDeleted": false,
 			"id": "CFC-YRdetJg6qTTY2CPZB",
 			"fillStyle": "solid",
@@ -2743,8 +2652,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 889.2419189091224,
-			"y": 16.28290583571328,
+			"x": 922.1340902375066,
+			"y": 22.623788102043306,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 9.120946325714934,
@@ -2757,7 +2666,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2778,8 +2687,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 496,
-			"versionNonce": 44951168,
+			"version": 748,
+			"versionNonce": 1348289504,
 			"isDeleted": false,
 			"id": "dZwdvshMZJKmqSkrbR1HL",
 			"fillStyle": "solid",
@@ -2788,8 +2697,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 889.8499819975032,
-			"y": 17.946263915720408,
+			"x": 922.7421533258873,
+			"y": 24.287146182050435,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 7.90482014895297,
@@ -2802,7 +2711,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2823,8 +2732,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 553,
-			"versionNonce": 879346048,
+			"version": 805,
+			"versionNonce": 1643211296,
 			"isDeleted": false,
 			"id": "lVta-4oKK7NhPVBBeaQqK",
 			"fillStyle": "solid",
@@ -2833,8 +2742,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 3.141592653589793,
-			"x": 897.6939958376179,
-			"y": 19.609621995727537,
+			"x": 930.586167166002,
+			"y": 25.950504262057564,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 7.90482014895297,
@@ -2847,7 +2756,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2868,8 +2777,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "line",
-			"version": 572,
-			"versionNonce": 1898780288,
+			"version": 824,
+			"versionNonce": 2143930336,
 			"isDeleted": false,
 			"id": "W7_B1N6-fU_9_aKO6fROq",
 			"fillStyle": "solid",
@@ -2878,8 +2787,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 3.141592653589793,
-			"x": 898.2306776069281,
-			"y": 21.88104316411585,
+			"x": 931.1228489353123,
+			"y": 28.22192543044588,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 9.120946325714934,
@@ -2892,7 +2801,7 @@ dynamoDB Stream ^JUBdICyx
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2913,8 +2822,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "text",
-			"version": 1555,
-			"versionNonce": 1421185408,
+			"version": 1807,
+			"versionNonce": 276768288,
 			"isDeleted": false,
 			"id": "J8RPv05d",
 			"fillStyle": "hachure",
@@ -2923,19 +2832,19 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 811.4564652367428,
-			"y": -72.83933116945968,
+			"x": 844.348636565127,
+			"y": -66.49844890312966,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 141.73983764648438,
-			"height": 48,
+			"height": 50,
 			"seed": 1694495237,
 			"groupIds": [
 				"e8WNKqVm1lkRhzEZFt7Z5"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480968509,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2945,12 +2854,13 @@ dynamoDB Stream ^JUBdICyx
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Kinesis \nData Firehose"
+			"originalText": "Kinesis \nData Firehose",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 235,
-			"versionNonce": 186704256,
+			"version": 751,
+			"versionNonce": 139963360,
 			"isDeleted": false,
 			"id": "xRyFBlYwHCvr_TK_qXYWz",
 			"fillStyle": "hachure",
@@ -2960,11 +2870,11 @@ dynamoDB Stream ^JUBdICyx
 			"opacity": 100,
 			"angle": 0,
 			"x": 589.8784648730498,
-			"y": 17.435580795347914,
+			"y": 18.12445097572558,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 242.71393097591817,
-			"height": 1.0773135161539642,
+			"width": 275.60610230430234,
+			"height": 5.958799144483443,
 			"seed": 1139825349,
 			"groupIds": [],
 			"roundness": {
@@ -2976,7 +2886,7 @@ dynamoDB Stream ^JUBdICyx
 					"id": "JUBdICyx"
 				}
 			],
-			"updated": 1678023903765,
+			"updated": 1681480968508,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2998,15 +2908,15 @@ dynamoDB Stream ^JUBdICyx
 					0
 				],
 				[
-					242.71393097591817,
-					1.0773135161539642
+					275.60610230430234,
+					5.958799144483443
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 6,
-			"versionNonce": 1435362944,
+			"version": 13,
+			"versionNonce": 206514912,
 			"isDeleted": false,
 			"id": "JUBdICyx",
 			"fillStyle": "hachure",
@@ -3015,32 +2925,33 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 659.735820467817,
-			"y": 11.82020523733599,
+			"x": 674.0215657688533,
+			"y": -3.8961494520326987,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 176.31982421875,
-			"height": 24,
+			"width": 107.31990051269531,
+			"height": 50,
 			"seed": 1019565317,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023854062,
+			"updated": 1681522887059,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "dynamoDB Stream",
-			"rawText": "dynamoDB Stream",
+			"text": "dynamoDB \nStream",
+			"rawText": "dynamoDB \nStream",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "xRyFBlYwHCvr_TK_qXYWz",
-			"originalText": "dynamoDB Stream"
+			"originalText": "dynamoDB \nStream",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 749,
-			"versionNonce": 675694208,
+			"version": 771,
+			"versionNonce": 1306278880,
 			"isDeleted": false,
 			"id": "P8eqW8wnb7w1UGJWlvubX",
 			"fillStyle": "cross-hatch",
@@ -3049,8 +2960,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1128.6775280719698,
-			"y": -16.36741156073697,
+			"x": 1145.402629614226,
+			"y": -12.936621500786941,
 			"strokeColor": "#000000",
 			"backgroundColor": "#40c05788",
 			"width": 65.08084106445301,
@@ -3069,14 +2980,14 @@ dynamoDB Stream ^JUBdICyx
 					"type": "arrow"
 				}
 			],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 536,
-			"versionNonce": 79263360,
+			"version": 558,
+			"versionNonce": 1169862176,
 			"isDeleted": false,
 			"id": "W0Hb5iiEWGkMAVgxCXYH8",
 			"fillStyle": "hachure",
@@ -3085,8 +2996,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1142.2903832496288,
-			"y": -5.300315535221102,
+			"x": 1159.015484791885,
+			"y": -1.8695254752710753,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 39.10563151041674,
@@ -3100,14 +3011,14 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1154,
-			"versionNonce": 1453273472,
+			"version": 1176,
+			"versionNonce": 187089888,
 			"isDeleted": false,
 			"id": "k2E58HJSVP2lETYbbhsAl",
 			"fillStyle": "hachure",
@@ -3116,8 +3027,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1142.6482996658951,
-			"y": 0.5781525136568462,
+			"x": 1159.3734012081513,
+			"y": 4.008942573606873,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 38.295773237179446,
@@ -3131,7 +3042,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3172,8 +3083,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "ellipse",
-			"version": 546,
-			"versionNonce": 1262921344,
+			"version": 568,
+			"versionNonce": 847243808,
 			"isDeleted": false,
 			"id": "msIeSHN1OkByAmQ9t6Uyi",
 			"fillStyle": "solid",
@@ -3182,8 +3093,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1159.4185877518328,
-			"y": 10.840651692029837,
+			"x": 1176.143689294089,
+			"y": 14.271441751979864,
 			"strokeColor": "#000000",
 			"backgroundColor": "#000",
 			"width": 4.69818115234375,
@@ -3197,14 +3108,14 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 1232,
-			"versionNonce": 1857880448,
+			"version": 1254,
+			"versionNonce": 627263456,
 			"isDeleted": false,
 			"id": "7X4Vs3evVxg4eKwBWS6oz",
 			"fillStyle": "solid",
@@ -3213,8 +3124,8 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1161.9087061600358,
-			"y": 13.413642109510306,
+			"x": 1178.633807702292,
+			"y": 16.844432169460333,
 			"strokeColor": "#000000",
 			"backgroundColor": "#000",
 			"width": 23.24691772460949,
@@ -3228,7 +3139,7 @@ dynamoDB Stream ^JUBdICyx
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3265,8 +3176,8 @@ dynamoDB Stream ^JUBdICyx
 		},
 		{
 			"type": "text",
-			"version": 994,
-			"versionNonce": 682481280,
+			"version": 1016,
+			"versionNonce": 1262331424,
 			"isDeleted": false,
 			"id": "hG7WMMxe",
 			"fillStyle": "hachure",
@@ -3275,19 +3186,19 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1108.7179486041964,
-			"y": 52.80283304198599,
+			"x": 1125.4430501464526,
+			"y": 56.23362310193602,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 103.69989013671875,
-			"height": 24,
+			"height": 25,
 			"seed": 562661995,
 			"groupIds": [
 				"H-VrKxUDWO6a5ITINDSkA"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023903765,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3297,12 +3208,13 @@ dynamoDB Stream ^JUBdICyx
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "S3 Bucket"
+			"originalText": "S3 Bucket",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 240,
-			"versionNonce": 1233822080,
+			"version": 806,
+			"versionNonce": 1655291872,
 			"isDeleted": false,
 			"id": "9TywdCvR9mkEMtJUzK0AK",
 			"fillStyle": "hachure",
@@ -3311,19 +3223,19 @@ dynamoDB Stream ^JUBdICyx
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 918.2113138081847,
-			"y": 20.984839037255867,
+			"x": 951.103485136569,
+			"y": 26.832167624753897,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 194.32136772116314,
-			"height": 3.8386008330540236,
+			"width": 178.15429793503506,
+			"height": 1.8007584455878067,
 			"seed": 51307909,
 			"groupIds": [],
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023904117,
+			"updated": 1681480973654,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3345,97 +3257,47 @@ dynamoDB Stream ^JUBdICyx
 					0
 				],
 				[
-					194.32136772116314,
-					3.8386008330540236
+					178.15429793503506,
+					1.8007584455878067
 				]
 			]
 		},
 		{
-			"id": "tNDbM_s_KdC_M25pVZLuX",
 			"type": "arrow",
-			"x": 196.60375237133655,
-			"y": -454.15417218885733,
-			"width": 1.4239616957231078,
-			"height": 145.69513654947627,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"seed": 1158640000,
-			"version": 223,
-			"versionNonce": 2128511360,
+			"version": 431,
+			"versionNonce": 1833947104,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1678023907665,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-1.4239616957231078,
-					145.69513654947627
-				]
-			],
-			"lastCommittedPoint": [
-				7.568578522050757,
-				216.65056019370144
-			],
-			"startBinding": {
-				"elementId": "w5JW681zh9SJYnyq9eHmz",
-				"focus": -0.023834908343513175,
-				"gap": 8.027469512670962
-			},
-			"endBinding": {
-				"elementId": "1jdfQ9S6fMO2byV1A-msg",
-				"focus": 0.15003402129001786,
-				"gap": 14.095289658565576
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
-		},
-		{
-			"type": "arrow",
-			"version": 148,
-			"versionNonce": 275632512,
-			"isDeleted": true,
-			"id": "KMLxCezGib8_Mu6i1S3JT",
+			"id": "tNDbM_s_KdC_M25pVZLuX",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -537.808350995102,
-			"y": 307.52770222662406,
+			"x": 19.54821408713684,
+			"y": -529.7845506094285,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 683.0365565363511,
-			"height": 554.0011197693832,
-			"seed": 1825185989,
+			"width": 179.2887273094346,
+			"height": 195.03638708140642,
+			"seed": 1158640000,
 			"groupIds": [],
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1678023896653,
+			"updated": 1681480926870,
 			"link": null,
 			"locked": false,
-			"startBinding": null,
+			"startBinding": {
+				"elementId": "SoGULQJk",
+				"focus": -0.19203742668804027,
+				"gap": 15.008090187624077
+			},
 			"endBinding": {
 				"elementId": "1jdfQ9S6fMO2byV1A-msg",
-				"focus": 0.05497821961356742,
-				"gap": 12.025480817200446
+				"focus": 0.31588983889638367,
+				"gap": 15.666803475058174
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3446,313 +3308,348 @@ dynamoDB Stream ^JUBdICyx
 					0
 				],
 				[
-					0.05803331902836817,
-					-280.3599862586111
+					167.733882542784,
+					18.881251823463288
 				],
 				[
-					683.0365565363511,
-					-554.0011197693832
-				]
-			]
-		},
-		{
-			"type": "rectangle",
-			"version": 1712,
-			"versionNonce": 598487424,
-			"isDeleted": true,
-			"id": "liRBYEejDWUSg1b3mW_nN",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 904.6518661310167,
-			"y": 196.33500108341286,
-			"strokeColor": "#000000",
-			"backgroundColor": "#fd7e1488",
-			"width": 64.46115236495699,
-			"height": 64.39942473426015,
-			"seed": 628145829,
-			"groupIds": [
-				"MaZjYEJI2jmPozdxx3OtH",
-				"jZ2Yi8hQLyfuOUH2qvOVU",
-				"FlE6m_trS_GSNS6lrENrZ"
-			],
-			"roundness": null,
-			"boundElements": [
-				{
-					"id": "KMLxCezGib8_Mu6i1S3JT",
-					"type": "arrow"
-				},
-				{
-					"id": "K1-Pel6ytSyTzQsiSd9CK",
-					"type": "arrow"
-				},
-				{
-					"id": "LR_8FicOWR2_vhApx_app",
-					"type": "arrow"
-				}
-			],
-			"updated": 1678023896653,
-			"link": null,
-			"locked": false
-		},
-		{
-			"type": "line",
-			"version": 873,
-			"versionNonce": 1636411008,
-			"isDeleted": true,
-			"id": "1MwXG6TRfqT4RYmjU-uFN",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 929.6430736814639,
-			"y": 223.0724668685118,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 19.307143399999998,
-			"height": 26.897,
-			"seed": 905685547,
-			"groupIds": [
-				"ZPxWMd2cQlhUOLih4lkHZ",
-				"jZ2Yi8hQLyfuOUH2qvOVU",
-				"FlE6m_trS_GSNS6lrENrZ"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1678023896653,
-			"link": null,
-			"locked": false,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-12.730345799999998,
-					25.466
-				],
-				[
-					-0.5178580999999962,
-					26.897
-				],
-				[
-					6.576797599999999,
-					13.180999999999997
-				],
-				[
-					0.8992804999999997,
-					0.5640000000000001
-				]
-			]
-		},
-		{
-			"type": "line",
-			"version": 873,
-			"versionNonce": 304742784,
-			"isDeleted": true,
-			"id": "2z-REgfNRwhcG7Jgq8WQM",
-			"fillStyle": "cross-hatch",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": 954.1297938814639,
-			"y": 238.96946686851174,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 34.863799400000005,
-			"height": 44,
-			"seed": 2022416901,
-			"groupIds": [
-				"ZPxWMd2cQlhUOLih4lkHZ",
-				"jZ2Yi8hQLyfuOUH2qvOVU",
-				"FlE6m_trS_GSNS6lrENrZ"
-			],
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1678023896653,
-			"link": null,
-			"locked": false,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": null,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-14.960123300000012,
-					-32.42
-				],
-				[
-					-29.1743317,
-					-33
-				],
-				[
-					-30.178179700000005,
-					-23.001
-				],
-				[
-					-22.897294200000005,
-					-22
-				],
-				[
-					-7.866463500000002,
-					10.421999999999997
-				],
-				[
-					3.689738799999993,
-					11
-				],
-				[
-					4.685619699999997,
-					1.0000000000000002
-				],
-				[
-					3.6897387999999935,
-					0
+					179.2887273094346,
+					195.03638708140642
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 1213,
-			"versionNonce": 2123421312,
-			"isDeleted": true,
-			"id": "ozvXRFsk",
+			"version": 263,
+			"versionNonce": 730389024,
+			"isDeleted": false,
+			"id": "nJaFRmQA",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 878.5725134194522,
-			"y": 265.6978306681956,
+			"x": 206.27296410950146,
+			"y": -609.9659459060057,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 116.61985778808594,
-			"height": 48,
-			"seed": 1627073739,
+			"width": 4.36016845703125,
+			"height": 9.527379399347323,
+			"seed": 425468896,
 			"groupIds": [
-				"FlE6m_trS_GSNS6lrENrZ"
+				"9FyQpFqFzMqR91jxkMp3O"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678023896653,
+			"updated": 1681480988903,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477859,
+			"fontFamily": 1,
+			"text": "{",
+			"rawText": "{",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "{",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 263,
+			"versionNonce": 1369528288,
+			"isDeleted": false,
+			"id": "HhViLnU0",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 206.27296410950146,
+			"y": -596.6276147469194,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 210.33822631835938,
+			"height": 9.527379399347321,
+			"seed": 1422952992,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480988903,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "\"TradeId\": \"bd16a929-ec64-4323-9d69-9b86dc68ab60\",",
+			"rawText": "\"TradeId\": \"bd16a929-ec64-4323-9d69-9b86dc68ab60\",",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"TradeId\": \"bd16a929-ec64-4323-9d69-9b86dc68ab60\",",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 263,
+			"versionNonce": 363370016,
+			"isDeleted": false,
+			"id": "EhKkStgm",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 206.27296410950146,
+			"y": -583.2892835878332,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 312.9886779785156,
+			"height": 9.527379399347321,
+			"seed": 99395552,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480988903,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "\"Hierarchy\": \"{\\\"Region\\\": \\\"APAC\\\", \\\"RiskType\\\": \\\"PV\\\", \\\"TradeDesk\\\": \\\"FXSpot\\\"}\",",
+			"rawText": "\"Hierarchy\": \"{\\\"Region\\\": \\\"APAC\\\", \\\"RiskType\\\": \\\"PV\\\", \\\"TradeDesk\\\": \\\"FXSpot\\\"}\",",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"Hierarchy\": \"{\\\"Region\\\": \\\"APAC\\\", \\\"RiskType\\\": \\\"PV\\\", \\\"TradeDesk\\\": \\\"FXSpot\\\"}\",",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 263,
+			"versionNonce": 1735089120,
+			"isDeleted": false,
+			"id": "fd87Yln5",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 206.27296410950146,
+			"y": -569.950952428747,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 127.16017150878906,
+			"height": 9.527379399347321,
+			"seed": 444220960,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480988903,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "\"Timestamp\": 1681479980.784592,",
+			"rawText": "\"Timestamp\": 1681479980.784592,",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"Timestamp\": 1681479980.784592,",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 275,
+			"versionNonce": 1732746208,
+			"isDeleted": false,
+			"id": "pwiW1DI3",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 206.93992330086905,
+			"y": -553.0563582506331,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 61.384796142578125,
+			"height": 9.527379399347321,
+			"seed": 2072805920,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480999172,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "\"Value\": 2893.17,",
+			"rawText": "\"Value\": 2893.17,",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"Value\": 2893.17,",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 273,
+			"versionNonce": 379139040,
+			"isDeleted": false,
+			"id": "zShuedDS",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 208.27384168360436,
+			"y": -536.8278705956204,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 40.809051513671875,
+			"height": 9.527379399347321,
+			"seed": 856436704,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681481000288,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "\"Version\": 0",
+			"rawText": "\"Version\": 0",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "\"Version\": 0",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 263,
+			"versionNonce": 594404320,
+			"isDeleted": false,
+			"id": "9hiFp6m6",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 206.27296410950146,
+			"y": -516.5976277924019,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 3.7742462158203125,
+			"height": 9.527379399347321,
+			"seed": 1995914784,
+			"groupIds": [
+				"9FyQpFqFzMqR91jxkMp3O"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480988903,
+			"link": null,
+			"locked": false,
+			"fontSize": 7.621903519477858,
+			"fontFamily": 1,
+			"text": "}",
+			"rawText": "}",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "}",
+			"lineHeight": 1.25
+		},
+		{
+			"type": "text",
+			"version": 32,
+			"versionNonce": 382054944,
+			"isDeleted": false,
+			"id": "8ohx5AN6",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1131.3777888544766,
+			"y": 95.19703265748035,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 92.91989135742188,
+			"height": 50,
+			"seed": 1086874592,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1681480984740,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
-			"text": "Lambda \nsource fake",
-			"rawText": "Lambda \nsource fake",
-			"textAlign": "center",
+			"text": "For audit\n/analyst",
+			"rawText": "For audit\n/analyst",
+			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Lambda \nsource fake"
+			"originalText": "For audit\n/analyst",
+			"lineHeight": 1.25
 		},
 		{
-			"type": "arrow",
-			"version": 186,
-			"versionNonce": 2118280832,
-			"isDeleted": true,
-			"id": "K1-Pel6ytSyTzQsiSd9CK",
+			"type": "text",
+			"version": 56,
+			"versionNonce": 1914626592,
+			"isDeleted": false,
+			"id": "SoGULQJk",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 949.1164794775747,
-			"y": 71.92265515753058,
+			"x": -57.81981567568255,
+			"y": -554.5088349455456,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 4.232948696962239,
-			"height": 114.57825785718688,
-			"seed": 144877125,
+			"width": 62.35993957519531,
+			"height": 50,
+			"seed": 495727584,
 			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1678023898907,
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "tNDbM_s_KdC_M25pVZLuX",
+					"type": "arrow"
+				}
+			],
+			"updated": 1681480926870,
 			"link": null,
 			"locked": false,
-			"startBinding": {
-				"elementId": "tODcnDg3nw5lyk-L8Oc85",
-				"focus": -0.004297473616793749,
-				"gap": 8.444435707854211
-			},
-			"endBinding": null,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-4.232948696962239,
-					114.57825785718688
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 197,
-			"versionNonce": 1614352768,
-			"isDeleted": true,
-			"id": "LR_8FicOWR2_vhApx_app",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 968.4147305191657,
-			"y": 187.76001474941182,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 2.337583586714345,
-			"height": 115.41765901364977,
-			"seed": 701247941,
-			"groupIds": [],
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1678023900632,
-			"link": null,
-			"locked": false,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "tODcnDg3nw5lyk-L8Oc85",
-				"focus": -0.637426884115445,
-				"gap": 8.864136286085682
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					2.337583586714345,
-					-115.41765901364977
-				]
-			]
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "IOT \nDevice",
+			"rawText": "IOT \nDevice",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "IOT \nDevice",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -3770,10 +3667,10 @@ dynamoDB Stream ^JUBdICyx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 217.37774673715415,
-		"scrollY": 748.4787477030964,
+		"scrollX": 106.2134376962556,
+		"scrollY": 649.2911949055126,
 		"zoom": {
-			"value": 1.0570016518547534
+			"value": 1.6
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

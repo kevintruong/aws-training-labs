@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
+                "file": "dynamodb/Dynamodb getting start (part 1).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 409.5
   },
   "right": {
     "id": "600b784b70fa4fdd",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
+                "file": "dynamodb/Dynamodb getting start (part 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
+                "file": "dynamodb/Dynamodb getting start (part 1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md"
+                "file": "dynamodb/Dynamodb getting start (part 1).md"
               }
             }
           },
@@ -159,10 +159,18 @@
   },
   "active": "822dd3e84be5f291",
   "lastOpenFiles": [
+    "artifacts/Excalidraw/Dynamodb_table.excalidraw.md",
+    "artifacts/Excalidraw/dynamodb_scan_1.svg",
+    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.md",
+    "artifacts/Excalidraw/dynamodb_query_filter.excalidraw",
+    "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
+    "artifacts/Excalidraw/Dynamodb Query.excalidraw.md",
+    "dynamodb/Dynamodb getting start (part 1).md",
+    "dynamodb/dynamodb-part-1.md",
+    "dynamodb/lab/Dynamodb.md",
+    "artifacts/Excalidraw/dynamodb_lab.excalidraw.svg",
     "dynamodb/lab/dev/terragrunt.hcl~",
     "artifacts/Excalidraw/dynamodb_query_filter.svg",
-    "dynamodb/dynamodb-part-1.md",
-    "dynamodb/Dynamodb getting start.md",
     "dynamodb/lab/dev/backend.tf",
     "dynamodb/lab/dev/provider.tf",
     "dynamodb/lab/dev/versions.tf",
@@ -171,20 +179,13 @@
     "terragrunt.hcl",
     "tf_modules/aws_kinesis/main.tf~",
     "dynamodb/lab/dev/aws_kinesis_data_stream/terragrunt.hcl~",
-    "dynamodb/lab/artifacts/source_fake.zip",
-    "dynamodb/lab/Dynamodb.md",
-    "artifacts/Excalidraw/Dynamodb Query.excalidraw.md",
     "artifacts/Excalidraw/dynamodb_query_pk.svg",
-    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.md",
     "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.svg",
     "artifacts/Excalidraw/Dynamodb Query.excalidraw.svg",
-    "artifacts/Excalidraw/dynamodb_scan_1.svg",
-    "artifacts/Excalidraw/Dynamodb_table.excalidraw.md",
     "artifacts/Excalidraw/Dynamodb_table.excalidraw.svg",
     "artifacts/Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "artifacts/Excalidraw/Scripts/Downloaded/Uniform size.md",
     "Excalidraw/dynamodb_lab.excalidraw.png",
-    "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
     "Excalidraw/dynamodb_lab.excalidraw.svg",
     "().md"
   ]
