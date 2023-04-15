@@ -58,7 +58,7 @@ Read: 100 RCU  ^7Vl4zpF9
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.19",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.22",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -665,7 +665,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
 			"width": 111.99986267089844,
-			"height": 48,
+			"height": 50,
 			"seed": 1377121620,
 			"groupIds": [],
 			"roundness": null,
@@ -689,7 +689,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "   Simple \n(Partition) "
+			"originalText": "   Simple \n(Partition) ",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -708,7 +709,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#c92a2a",
 			"backgroundColor": "transparent",
 			"width": 111.15251159667969,
-			"height": 32.4,
+			"height": 34.149657498753875,
 			"seed": 815301100,
 			"groupIds": [
 				"2y66RcVltYWr6500C0aa0"
@@ -738,7 +739,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Combine "
+			"originalText": "Combine ",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -757,7 +759,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#5c940d",
 			"backgroundColor": "transparent",
 			"width": 143.63568115234375,
-			"height": 32.4,
+			"height": 34.14965749875387,
 			"seed": 403667028,
 			"groupIds": [
 				"2y66RcVltYWr6500C0aa0"
@@ -774,7 +776,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "(Partition "
+			"originalText": "(Partition ",
+			"lineHeight": 1.2499999999999998
 		},
 		{
 			"type": "text",
@@ -793,7 +796,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
 			"width": 170.5775909423828,
-			"height": 32.4,
+			"height": 34.149657498753875,
 			"seed": 1880514796,
 			"groupIds": [
 				"2y66RcVltYWr6500C0aa0"
@@ -810,7 +813,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "+ Sort Key )"
+			"originalText": "+ Sort Key )",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -866,7 +870,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#5c940d",
 			"backgroundColor": "#82c91e",
 			"width": 126.99984741210938,
-			"height": 24,
+			"height": 25,
 			"seed": 223555540,
 			"groupIds": [],
 			"roundness": null,
@@ -881,7 +885,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Partition key"
+			"originalText": "Partition key",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -933,7 +938,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#e67700",
 			"backgroundColor": "#fab005",
 			"width": 83.19990539550781,
-			"height": 24,
+			"height": 25,
 			"seed": 651409492,
 			"groupIds": [],
 			"roundness": null,
@@ -948,7 +953,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Sort key"
+			"originalText": "Sort key",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -995,7 +1001,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 92.45989990234375,
-			"height": 24,
+			"height": 25,
 			"seed": 1192271316,
 			"groupIds": [],
 			"roundness": null,
@@ -1010,7 +1016,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Attribute"
+			"originalText": "Attribute",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
@@ -1197,7 +1204,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Example: \n{\n     \"nguyen_van_a\": <attribute_1_value>\n     \"nguyen_van_b\": <attribute_1_value>,<attribute_2_value>\n     \"nguyen_van_c\": <attribute_1_value>,<attribute_3_value>\n}\n\nsimple partition:  full_name is partition_key \ncombine partition: sur_name is partition_key, first name is sort key"
+			"originalText": "Example: \n{\n     \"nguyen_van_a\": <attribute_1_value>\n     \"nguyen_van_b\": <attribute_1_value>,<attribute_2_value>\n     \"nguyen_van_c\": <attribute_1_value>,<attribute_3_value>\n}\n\nsimple partition:  full_name is partition_key \ncombine partition: sur_name is partition_key, first name is sort key",
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1216,7 +1224,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 157.86465454101562,
-			"height": 33.6,
+			"height": 35,
 			"seed": 678805076,
 			"groupIds": [],
 			"roundness": null,
@@ -1240,7 +1248,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Primary Key"
+			"originalText": "Primary Key",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
@@ -1361,7 +1370,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 278.3211669921875,
-			"height": 33.6,
+			"height": 35,
 			"seed": 337641812,
 			"groupIds": [],
 			"roundness": null,
@@ -1376,7 +1385,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Unique in table level"
+			"originalText": "Unique in table level",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
@@ -1606,7 +1616,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 54.99223327636719,
-			"height": 33.6,
+			"height": 35,
 			"seed": 632565844,
 			"groupIds": [
 				"OOxlUKajzMMHdSTUYj2fL"
@@ -1628,7 +1638,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "item"
+			"originalText": "item",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1647,7 +1658,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
 			"width": 197.00885009765625,
-			"height": 33.6,
+			"height": 35,
 			"seed": 1722040916,
 			"groupIds": [
 				"OOxlUKajzMMHdSTUYj2fL"
@@ -1664,7 +1675,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "up to 400 KB"
+			"originalText": "up to 400 KB",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
@@ -1683,7 +1695,7 @@ Read: 100 RCU  ^7Vl4zpF9
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
 			"width": 285.1396484375,
-			"height": 48,
+			"height": 50,
 			"seed": 318163692,
 			"groupIds": [],
 			"roundness": null,
@@ -1698,12 +1710,13 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "each item have primary key\nprimary key is unique in table"
+			"originalText": "each item have primary key\nprimary key is unique in table",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
-			"version": 248,
-			"versionNonce": 1799051732,
+			"version": 295,
+			"versionNonce": 1109965600,
 			"isDeleted": false,
 			"id": "9DPzJ1z0",
 			"fillStyle": "solid",
@@ -1712,17 +1725,17 @@ Read: 100 RCU  ^7Vl4zpF9
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -338.3916360257688,
-			"y": -700.4800953998024,
+			"x": -306.3916360257688,
+			"y": -756.4800953998024,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
 			"width": 335.658447265625,
-			"height": 111.6,
+			"height": 119.75406157940962,
 			"seed": 1115299284,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678230897733,
+			"updated": 1681524161302,
 			"link": null,
 			"locked": false,
 			"fontSize": 31.9344164211759,
@@ -1732,12 +1745,13 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Capacity (speed)\nWrite (WCU) : 1KB/s\nRead (RCU) : 4KB/s "
+			"originalText": "Capacity (speed)\nWrite (WCU) : 1KB/s\nRead (RCU) : 4KB/s ",
+			"lineHeight": 1.25
 		},
 		{
 			"type": "text",
-			"version": 214,
-			"versionNonce": 668897004,
+			"version": 306,
+			"versionNonce": 671010592,
 			"isDeleted": false,
 			"id": "7Vl4zpF9",
 			"fillStyle": "solid",
@@ -1746,17 +1760,17 @@ Read: 100 RCU  ^7Vl4zpF9
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 95.20693441086382,
-			"y": -689.6800953998023,
+			"x": 111.20693441086382,
+			"y": -743.6800953998023,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
 			"width": 241.00132751464844,
-			"height": 100.80000000000001,
+			"height": 108.06159420289862,
 			"seed": 1236566252,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1678230535426,
+			"updated": 1681524162803,
 			"link": null,
 			"locked": false,
 			"fontSize": 28.816425120772962,
@@ -1766,7 +1780,8 @@ Read: 100 RCU  ^7Vl4zpF9
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "an item 400KB\nWrite: 400 WCU \nRead: 100 RCU "
+			"originalText": "an item 400KB\nWrite: 400 WCU \nRead: 100 RCU ",
+			"lineHeight": 1.2500000000000002
 		}
 	],
 	"appState": {
@@ -1784,7 +1799,7 @@ Read: 100 RCU  ^7Vl4zpF9
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 963.4408774684111,
+		"scrollX": 908.6908774684111,
 		"scrollY": 1385.515521708083,
 		"zoom": {
 			"value": 0.5

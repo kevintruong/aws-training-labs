@@ -1,15 +1,19 @@
 
 <!-- .slide: style="background-color: coral;" -->
-# Dynamodb Database 
+# Dynamodb
+
+- No self managed server it is service 
+- Actually NoSQL table as sevice 
+- manual/Auto provision scale in/out or on demand 
+- multiple back up : PIT recovery 
+- CDC change capture/event driven integrate (DynamoDB Stream)
 
 ---
+
 # DynamoDB Table 
+
 ![[Dynamodb_table.excalidraw]]
 
-note: this is not! Only the speaker might see this text.
-
-- and this bulletpoint
-- or this picture
 ---
 
 ## DynamoDB Operation 
@@ -34,6 +38,15 @@ note: this is not! Only the speaker might see this text.
 
 ### DynamoDB table stream
 
+- Ordered list of item change in table (kinesis stream)
+- 24 hours rolling window
+- Enable per table 
+- record INSER/UPDATE/DELETE 
+- Multiple view type for change 
+  - KEY ONLY 
+  - OLD
+  - NEW
+  - OLD_NEW 
 
 
 ---
