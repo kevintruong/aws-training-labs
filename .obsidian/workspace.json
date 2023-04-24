@@ -6,33 +6,15 @@
       {
         "id": "d660cf235a5e6757",
         "type": "tabs",
-        "dimension": 45.190779014308426,
         "children": [
           {
             "id": "822dd3e84be5f291",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
-                "mode": "source",
-                "source": false
+                "file": "artifacts/Excalidraw/dynamodb_lab.excalidraw.md"
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e5d2f70987e3e38b",
-        "type": "tabs",
-        "dimension": 54.809220985691574,
-        "children": [
-          {
-            "id": "a7b25ae2a33bbe26",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -85,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5,
-    "collapsed": true
+    "width": 409.5
   },
   "right": {
     "id": "600b784b70fa4fdd",
@@ -102,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
+                "file": "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md",
+                "file": "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dynamodb/dynamodb-part-1.md"
+                "file": "artifacts/Excalidraw/dynamodb_lab.excalidraw.md"
               }
             }
           },
@@ -176,16 +157,16 @@
   },
   "active": "822dd3e84be5f291",
   "lastOpenFiles": [
+    "dynamodb/lab/Dynamodb.md",
+    "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
+    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.md",
+    "dynamodb/dynamodb-part-1.md",
     "dynamodb/dynamodb-part-1.md~",
     "artifacts/Excalidraw/Dynamodb_table.excalidraw.md",
-    "dynamodb/dynamodb-part-1.md",
     "dynamodb/Dynamodb getting start (part 1).md",
     "artifacts/Excalidraw/dynamodb_scan_1.svg",
-    "artifacts/Excalidraw/Dynamodb_query_scan.excalidraw.md",
     "artifacts/Excalidraw/dynamodb_query_filter.excalidraw",
-    "artifacts/Excalidraw/dynamodb_lab.excalidraw.md",
     "artifacts/Excalidraw/Dynamodb Query.excalidraw.md",
-    "dynamodb/lab/Dynamodb.md",
     "artifacts/Excalidraw/dynamodb_lab.excalidraw.svg",
     "dynamodb/lab/dev/terragrunt.hcl~",
     "artifacts/Excalidraw/dynamodb_query_filter.svg",
